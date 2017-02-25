@@ -11,6 +11,6 @@ All the dependencies external executable files are placed under bin directory.
 git clone https://github.com/fenghen360/HomBlocks.git
 or download the zip compressed files into your work directory
 
-//Reasons why alignment cannot be established using whole organelle genomes
+#Reasons why alignment cannot be established using whole organelle genomes
 
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/alignment2.png)
