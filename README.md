@@ -10,3 +10,5 @@ All the dependencies external executable files are placed under bin directory.
 
 git clone https://github.com/fenghen360/HomBlocks.git
 or download the zip compressed files into your work directory
+
+![image](https://github.com/fenghen360/Tutorial/blob/master/pic/alignment2.png)
