@@ -323,15 +323,17 @@ This is the visualization results of 36 Xenarthrans mitochondrial genomes.
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/circos.png)<br/><br/>
 
 
-### The efficacy of Homblocks compared with traditional methods
+### The efficacy of HomBlocks compared with traditional method
 
 The phylogeny analyses results using HomBlocks matrices of 36 Xenarthrans mitochondrial genomes were shown below, compared with the raw tree excerpted from orginal papaer.
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/tree-com.png)<br/><br/>
 <br/>
 <br/>
 <br/>
-<br/>
-
+## Notes
+**Please delete all fasta and htm files under HomBlocks main directory, if you rerun with result file of progressiveMauve.**
+HomBlocks is high efficient. 
+Enjoy it!<br/><br/>
 ## Acknowledgements
 
 The authors would like to thank:
