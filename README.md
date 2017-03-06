@@ -104,7 +104,7 @@ parameters:
 ```
 <br/>
 <br/>
-#### Running with 36 Xenarthrans mitochondiral genomes as an example
+#### Running with 36 Xenarthrans mitochondrial genomes as an example
 
 This dataset of example running was referred to this paper:<br/>
 **Gibb, G. et al. (2016). Shotgun mitogenomics provides a reference phylogenetic framework and timescale for living xenarthrans. Molecular Biology and Evolution, 33(3), 621-642.**<br/>
@@ -112,8 +112,16 @@ This dataset of example running was referred to this paper:<br/>
 Example run with parameters like this:<br/>
 
 ```bash
-perl HomBlocks.pl --align --path=~/HomBlocks/Xenarthrans/fasta/ -out_seq=Xenarthrans.output.fasta  --mauve-out=Xenarthrans.mauve.out
+perl HomBlocks.pl --align --path=/public/home/mgb217/HomBlocks/Xenarthrans/fasta/ -out_seq=Xenarthrans.output.fasta  --mauve-out=Xenarthrans.mauve.out
 ```
+<br/>
+
+The meanings of these parameters could be found in the usage of HomBlocks. It should be noted that ```--align``` and ```--path``` must be set at same time.<br/>
+Because ```--align``` means that you have no mauve alignments result file for the first time, so set this parameter to run progressiveMauve for LCB detection. Meanwhile,  ```--path``` parameter will define the absolute path of directory where you put your sequences in.<br/>
+
+
+
+
 
 
 
