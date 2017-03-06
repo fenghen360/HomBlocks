@@ -67,14 +67,14 @@ chmod 755 *
 2. java with version above 1.7
 3. python with version above 2.7
 4. circos (optimal)
-    1. circos is not easy to install on a linux server without root permissions. If you want install to visualize the genes involved in the alignments. You can use perl scipts cpanm.pl (```http://xrl.us/cpanm```) to install perl modules. Otherwise, my advice is to do this visualization on circoletto webserver http://tools.bat.infspire.org/circoletto/ by input of whole genome sequence and a set of every single gene sequence, respectively. 
+    1. circos is not easy to install on a linux server without root permissions. If you want install to visualize the genes involved in the alignments. You can use perl scipts cpanm.pl (```http://xrl.us/cpanm```) to install perl modules. Otherwise, my advice is to do this visualization on circoletto webserver http://tools.bat.infspire.org/circoletto/ by input of whole genome sequence and a set of every single gene sequence, respectively. <br/>
     
 
 ## Tutorial
 
-　　HomBlocks is not complex to use. What it needs are fasta or gebank files (fasta, fas, fa or gb suffix). You must put all these sequences **in a directory**. Like these test sequnces which were put in **Xenarthrans/fasta**.
+　　HomBlocks is not complex to use. What it needs are fasta or gebank files (fasta, fas, fa or gb suffix). You must put all these sequences **in a directory**. Like these test sequnces which were put in **Xenarthrans/fasta**.<br/>
 
-To begin with, you can check the usage of HomBlocks without any parameters.
+To begin with, you can check the usage of HomBlocks without any parameters.<br/>
 
 ```bash
 # check usage
@@ -103,25 +103,18 @@ parameters:
 
 ```
 
+### Running with 36 Xenarthrans mitochondiral genomes as an example
 
-If you don't want to train your own models and want to skip to filtering an existing set of clusters using a pre-trained model **Using your own data** section.
+This dataset of example running was referred to this paper below:<br/>
+**Gibb, G. et al. (2016). Shotgun mitogenomics provides a reference phylogenetic framework and timescale for living xenarthrans. Molecular Biology and Evolution, 33(3), 621-642.**<br/>
 
-This program has two modes that are specified as positional arguments when running.
-These two modes are: ```train``` and ```classify```.
-You can specify them by doing:
+Example run with parameters like this:<br/>
 
 ```bash
-# To train a model
-python bin/ogcleaner.py train <additional arguments>
-
-# To classify clusters
-python bin/ogcleaner.py classify <additional arguments>
+perl HomBlocks.pl --align --path=~/HomBlocks/Xenarthrans/fasta/ -out_seq=Xenarthrans.output.fasta  --mauve-out=Xenarthrans.mauve.out
 ```
 
-See the below sections for walkthroughs.
 
-
-### Training a filtering model
 
 To train a model you must use the ```train``` positional argument.
 
