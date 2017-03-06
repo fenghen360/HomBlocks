@@ -1,7 +1,8 @@
 # What is HomBlocks?
-   For the purpose of saving time of preparation of sequence matrix derived from organelle genomes that would be utilized in phylogeny analysis. We developed a rapid and accurate method for this sequence matrix construction. In this pipeline, the core conserved fragment (usually the conserved coding genes) will be picked out and integrated into a long sequence from the same genome. This method avoids the bothering sequence alignment procedure of every single gene and can generate phylogeny informative and high quality data matrix. Usually, instead of a few weeks of manual work, it only takes a few minutes or hours to construct the HomBlocks matrix among less than 20 organelle genomes. In addition, HomBlocks produces circos configure files for visualization, sequence partitioning strategy and best-fit DNA substitution model, which are important in downstream phylogeny analysis.
 
-#Reasons why alignment cannot be established using whole organelle genomes
+   For the purpose of improving the efficiency of sequence matrix construction derived from multitudes of organelle genomes, we developed a time-saving and accurate method that would be utilized in phylogenomics studies. In this pipeline, the core conserved fragment (conserved coding genes, functional non-coding regions and rRNA) will be picked out and integrated into a long sequence from the same genome. This method avoids the bothering sequence alignment procedure of every single gene and can generate phylogeny informative and high quality data matrix. Usually, instead of week-long manual work, it only takes less than an hour to construct the HomBlocks matrix with around two dozens of organelle genomes. In addition, HomBlocks produces circos configure files for visualization, sequence optimal partition schemes and models of sequence evolution for RAxML, which are important in downstream phylogeny analysis.
+
+# Reasons why alignment cannot be established using whole organelle genomes
 
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/alignment2.png)
 
