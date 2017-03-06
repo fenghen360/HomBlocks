@@ -271,7 +271,7 @@ To run HomBlocks with parameter ```--PartitionFinder``` will take sequence parti
 
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/best.png)<br/><br/>
 
-Here an example of the content of best_scheme.txt<br/>
+Here is an example of the content of best_scheme.txt<br/>
 
 ```bash
 Settings used
@@ -316,10 +316,17 @@ You may save time doing some of the following.
 ```
 
 
+##### 5. Results with setting --gb parameter
+
+![image](https://github.com/fenghen360/Tutorial/blob/master/pic/circos.png)<br/><br/>
 
 
 
-
+![image](https://github.com/fenghen360/Tutorial/blob/master/pic/tree-com.png)<br/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
 ## Acknowledgements
 
 The authors would like to thank:
