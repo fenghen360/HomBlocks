@@ -14,7 +14,7 @@ convenient. <br/>
 　　The evolution of organelle genomes is dynamic and diverse in gene content, structure and sequnce divergence. Thus, basically speaking, they cannot be aligned directly using the whole genome sequences as shown by picture below.<br/>
 
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/alignment2.png)<br/>
-　　This is the result picture from Mauve by comparison of plastid genomes of three green algae. As we can see, there was a large invert frament in Ulva sp. when comparing with other sequences (arrow B), and gene content, intergenic region length were also different (arrorw C). Similarly，number of gene introns among the genomes were different (arrow A).  The most direct consequence is that they exhibited in different length (arrow D). For aligners, these characteristics can lead to fatal error or being corrupted. <br/>
+　　This is the result picture from Mauve by comparison of plastid genomes of three green algae. As we can see, there was a large invert frament in Ulva sp. when comparing with other sequences (arrow B), and gene content, intergenic region length were also different (arrorw C). Similarly, number of gene introns among the genomes were different (arrow A).  The most direct consequence is that they exhibited in different length (arrow D). For aligners, these characteristics can lead to fatal error or being corrupted. <br/>
 　　Organelle genomes within intraspecies are usually conserved both in length and structure. So, in some cases, they can be aligned directly. But in nine cases of ten, researches of organelle genomes focus on interspecies level, which means the direct alignment is difficult to realize.<br/>
    
 ## Methodology
@@ -22,7 +22,7 @@ The working flow diagram was shown below.<br/>
 
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/workflow.png)<br/>
 
-　　HomBlocks utilizes progressiveMauve (Darling et al., 2004), which applies anchored alignment algorithm, to identify locally collinear blocks (LCBs) shared by organelle genomes (chloroplast and mitochondrial genomes). <br/>
+　　HomBlocks utilizes progressiveMauve, which applies anchored alignment algorithm, to identify locally collinear blocks (LCBs) shared by organelle genomes (chloroplast and mitochondrial genomes). <br/>
 The co-exist LCBs among all organelle genomes will be extracted and trimmed to screen out phylogeny informative regions.<br/> 　　HomBlocks offers four different methods for LCBs trimming: Gblocks, trimAl, noisy and BMGE. Without settings, the default trimming method is Gblocks. <br/>
 　　The final alignment that was composed of trimmed LCB could be used in downstream analysis. Additional parameters were provided for users to select the best fit DNA substitution model and optimal partition schemes and models of sequence evolution for RAxML with the final alignment by PartitionFinder (Lanfear et al., 2012). At the same time, circos configure files will be generated via circoletto (Darzentas, 2010) for visualization to explore which gene was involved in the final alignment.<br/>
 
