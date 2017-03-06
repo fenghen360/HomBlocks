@@ -103,7 +103,7 @@ parameters:
 
 ```
 
-### Running with 36 Xenarthrans mitochondiral genomes as an example
+#### Running with 36 Xenarthrans mitochondiral genomes as an example
 
 This dataset of example running was referred to this paper below:<br/>
 **Gibb, G. et al. (2016). Shotgun mitogenomics provides a reference phylogenetic framework and timescale for living xenarthrans. Molecular Biology and Evolution, 33(3), 621-642.**<br/>
