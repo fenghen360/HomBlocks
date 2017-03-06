@@ -331,8 +331,9 @@ The phylogeny analyses results using HomBlocks matrices of 36 Xenarthrans mitoch
 <br/>
 <br/>
 ## Notes
-**Please delete all fasta and htm files under HomBlocks main directory, if you rerun with result file of progressiveMauve.**
-HomBlocks is high efficient. 
+**Please delete all fasta and htm files under HomBlocks main directory, if you rerun with result file of progressiveMauve.**<br/>
+PartitionFinder only works with the existence of more than 2 LCBs.<br/>
+HomBlocks is high efficient. <br/>
 Enjoy it!<br/><br/>
 ## Acknowledgements
 
