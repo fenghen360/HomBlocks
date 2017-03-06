@@ -6,6 +6,8 @@ What is HomBlocks?
 
 Traditional way for construction of multi-gene alignment from organelle genomes
 -------
+　　Almost all studies regarding with organelle genomics were accustomed to making phylogeny analyses by taking advantage of multiple genes in improvements of phylogentic resolution. But, usually, every single set of orthology genes was need to be pre-aligned, then concatenation was performed among these common aligned genes.
+
 
 Reasons why alignment cannot be established using whole organelle genomes
 -------
