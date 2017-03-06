@@ -7,13 +7,15 @@
 ## Traditional way for construction of multi-gene alignment from organelle genomes
 
 　　Almost all studies regarding with organelle genomics were accustomed to making phylogeny analyses by taking advantage of multiple genes in improvements of phylogentic resolution. But, usually, every single set of orthology genes was need to be pre-aligned, then concatenation was performed among these common aligned genes. Though some softwares, like SequenceMatrix, can facilitate the procedure of sequence extraction or concatenation, to constrcut multi-gene alignments derived from organelle genomes is a complex process and prone to induce artificial errors. Despite that, the most concerning point for researches is how long this alignment procedure took. In general, with the help of some bioinformatics tools, it will take at least two weeks to make genome-wide alignments using common genes among 30 higher plant chloroplast genomes (about 150kb long with at least 100 common genes). Thus, the common phenomenon exists in papers of plant chloroplast genomes that the number of genes used in phylogeny were decreased to below 70. And reseachers have to be patient and cautious, because single gene alignment with artificial errors can lead to undetectable misplacement in the final alignments. Generally speaking, organelle phylogenomic analysis provides exact tools to detect genetic relationships, but the construction of multi-gene alignments does not sound 
-convenient. 
+convenient. <br/>
+
 
 ## Reasons why alignment cannot be established using whole organelle genomes
-　　The evolution of organelle genomes is dynamic and diverse in gene content, structure and sequnce divergence. Thus, basically speaking, they cannot be aligned directly using the whole genome sequences as shown by picture below.
-![image](https://github.com/fenghen360/Tutorial/blob/master/pic/alignment2.png)
-This is the result picture from Mauve by comparison of three plastid genomes of three green algae. As we can see, there was a large invert frament in Ulva sp. when comparing with other sequences (arrow B), and gene content, intergenic region length were also different (arrorw C). Similarly，number of gene introns among the genomes were different (arrow A).  The most direct consequence is that they exhibited in different length (arrow D). For aligners, these characteristics can lead to fatal error or being corrupted. 
-　　Organelle genomes within intraspecies are usually conserved both in length and structure. So, in some cases, they can be aligned directly. But in nine cases of ten, researches of organelle genomes focus on interspecies level, which means the direct alignment is difficult to realize.
+　　The evolution of organelle genomes is dynamic and diverse in gene content, structure and sequnce divergence. Thus, basically speaking, they cannot be aligned directly using the whole genome sequences as shown by picture below.<br/>
+
+![image](https://github.com/fenghen360/Tutorial/blob/master/pic/alignment2.png)<br/>
+　　This is the result picture from Mauve by comparison of three plastid genomes of three green algae. As we can see, there was a large invert frament in Ulva sp. when comparing with other sequences (arrow B), and gene content, intergenic region length were also different (arrorw C). Similarly，number of gene introns among the genomes were different (arrow A).  The most direct consequence is that they exhibited in different length (arrow D). For aligners, these characteristics can lead to fatal error or being corrupted. <br/>
+　　Organelle genomes within intraspecies are usually conserved both in length and structure. So, in some cases, they can be aligned directly. But in nine cases of ten, researches of organelle genomes focus on interspecies level, which means the direct alignment is difficult to realize.<br/>
    
 ## Methodology
 
