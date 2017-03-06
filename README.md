@@ -336,7 +336,7 @@ HomBlocks is high efficient.
 Enjoy it!<br/><br/>
 ## Acknowledgements
 
-The authors would like to thank:
+I would like to thank:
 
 1. Chengjie Chen (College of Horticulture, South China Agricultural University)
 2. Penghao Yu (Institute of Genetics and Developmental Biology, Chinese Academy of Sciences)
