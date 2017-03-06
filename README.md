@@ -131,7 +131,7 @@ The list of sequences will be aligned:
 /public/home/mgb217/HomBlocks/Xenarthrans/fasta/Bradypus_tridactylus.fasta
 /public/home/mgb217/HomBlocks/Xenarthrans/fasta/Bradypus_variegatus.fasta
 /public/home/mgb217/HomBlocks/Xenarthrans/fasta/Bradypus_variegatus_old.fasta
-<br/>/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Cabassous_centralis.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Cabassous_centralis.fasta
 /public/home/mgb217/HomBlocks/Xenarthrans/fasta/Cabassous_chacoensis.fasta
 /public/home/mgb217/HomBlocks/Xenarthrans/fasta/Cabassous_tatouay.fasta
 /public/home/mgb217/HomBlocks/Xenarthrans/fasta/Cabassous_unicinctus_ISEM_T-2291.fasta
@@ -171,8 +171,62 @@ Keep going?
 
 If the number of these sequences is matched, print **Enter** key to continue. Otherwise, print **Ctrl+C** to abort and check whether the suffix of these sequences is correct.<br/>
 
+When the LCB detection process run is complete, HomBlocks will start triming LCBs step.<br/>
+After trimming, all filtered module sequences of each species will be concatenated together.<br/>
+
+```bash
+                                                       ********************                  
+                                                        **HomBlocks start!**               
+                                                        ********************
+
+                                                Aligned fasta file is Xenarthrans.mauve.out
+                                        Number of the taxon species used in alignment is 36
 
 
+
+Now identifying the colinear blocks. Be patient
+
+
+Finished!
+
+
+1 colinear blocks were identified totally!
+
+
+Now extracting these sequences!
+
+
+module_1
+
+
+Sequences extraction complete!
+
+
+Now work with Gblocks!
+
+
+
+36 sequences and 20823 positions in the first alignment file:
+module_1.fasta
+
+module_1.fasta
+Original alignment: 20823 positions
+Gblocks alignment:  15170 positions (72 %) in 125 selected block(s)
+
+All blocks extracted by Mauve have conserved sequences.
+
+
+The final concatenated sequences was writen in Xenarthrans.output.fasta
+
+The location of each extracted modules on the final concatenated seq:
+
+module_1 = 1-15170;
+
+The concatenated length is 15170 bp
+
+HomBlocks DATA PREPRATION COMPLETED! ENJOY IT!!
+
+```
 
 
 
