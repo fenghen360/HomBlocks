@@ -222,6 +222,6 @@ Please use the following to cite us:
 
 The authors would like to thank:
 
-1. BYU Computational Sciences Laboratory
-1. Christophe Giraud-Carrier
-1. Quinn Snell
+1. Chengjie Chen (College of Horticulture, South China Agricultural University)
+2. Penghao Yu (Institute of Genetics and Developmental Biology, Chinese Academy of Sciences)
+3. Xiwen Xu (College of informatics, HuaZhong agricultual university)
