@@ -318,17 +318,20 @@ You may save time doing some of the following.
 
 ### A better way for visualization of genes involved in final alignments.
 
-circoletto webserver http://tools.bat.infspire.org/circoletto/ by input of whole genome sequence and a set of every single gene sequence, respectively.
-
+To have a overview of which gene was involved in fianl alignments, circoletto webserver (http://tools.bat.infspire.org/circoletto/) is a good choice for this visualization by input of whole genome sequence and a set of every single gene sequence, respectively.<br/><br/>
+This is the visualization results of 36 Xenarthrans mitochondrial genomes.
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/circos.png)<br/><br/>
 
 
+### The efficacy of Homblocks compared with traditional methods
 
+The phylogeny analyses results using HomBlocks matrices of 36 Xenarthrans mitochondrial genomes were shown below, compared with the raw tree excerpted from orginal papaer.
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/tree-com.png)<br/><br/>
 <br/>
 <br/>
 <br/>
 <br/>
+
 ## Acknowledgements
 
 The authors would like to thank:
