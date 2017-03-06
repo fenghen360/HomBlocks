@@ -270,12 +270,47 @@ HomBlocks will reuse Xenarthrans.mauve.out as input to do co-exist LCB detection
 
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/best.png)<br/>
 
+```bash
+Settings used
+
+alignment         : ./seq.phy
+branchlengths     : linked
+models            : GTR+I+G, GTR+G
+model_selection   : bic
+search            : greedy
+
+
+Best partitioning scheme
+
+Scheme Name       : step_8
+Scheme lnL        : -241508.035996
+Scheme BIC        : 484605.330493
+Number of params  : 144
+Number of sites   : 62101
+Number of subsets : 4
+
+Subset | Best Model | Subset Partitions              | Subset Sites                   | Alignment                               
+1      | GTR+I+G    | module_10, module_11, module_12, module_13, module_2, module_8 | 1-1217, 1218-1846, 1847-5466, 5467-7193, 7194-12794, 39284-39336 | ./analysis/phylofiles/b223f9fb0607d180c62e998e0640f084.phy
+2      | GTR+I+G    | module_3, module_6, module_9   | 12795-13385, 28709-32188, 39337-62101 | ./analysis/phylofiles/1fe695cc374da03d9393032bc6b129fc.phy
+3      | GTR+I+G    | module_4                       | 13386-28648                    | ./analysis/phylofiles/2c9c71d29cc35eb4108311a57b96f1b4.phy
+4      | GTR+I+G    | module_5, module_7             | 28649-28708, 32189-39283       | ./analysis/phylofiles/d5259e194f9986883883203b81c0ba0c.phy
+
+
+Scheme Description in PartitionFinder format
+Scheme_step_8 = (module_10, module_11, module_12, module_13, module_2, module_8) (module_3, module_6, module_9) (module_4) (module_5, module_7);
+
+RaxML-style partition definitions
+DNA, p1 = 1-1217, 1218-1846, 1847-5466, 5467-7193, 7194-12794, 39284-39336
+DNA, p2 = 12795-13385, 28709-32188, 39337-62101
+DNA, p3 = 13386-28648
+DNA, p4 = 28649-28708, 32189-39283
+
 
 ### Notes on running the program:
 
 The ogcleaner.py script is all-inclusive and will do everything for you.
 You may save time doing some of the following.
-
+```
 
 
 
