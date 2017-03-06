@@ -229,13 +229,17 @@ HomBlocks DATA PREPRATION COMPLETED! ENJOY IT!!
 ```
 #### Output files
 
+##### 1. The most important result
+
 This simple run was finished resulting with alignment file named **Xenarthrans.output.fasta**<br/>
 Sequences in **Xenarthrans.output.fasta** were already aligned, you can check it by aligners like MEGA, clustalx or UGENE.
 
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/ugene.png)<br/>
 
-
-And the LCB trimming results (module_1.fasta-gb.htm in this case，only one detectable LCB among these 36 mt genomes).<br/>
+##### 2. The LCB timming result named module_X.fasta-gb.html and module_X.fasta
+And the LCB trimming results: 
+　　　　　　　module_1.fasta (timmed LCB sequnce) <br/>
+　　　　　　　module_1.fasta-gb.htm (trimming results from Glbocks. In this case，only one LCB was detectable) <br/>
 Your can review the trimming results through web browser.<br/>
 
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/Gblock.png)<br/>
