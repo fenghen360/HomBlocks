@@ -28,8 +28,8 @@ The co-exist LCBs among all organelle genomes will be extracted and trimmed to s
 
 
 ## Installation
-　　
-　HomBlocks is a pipeline that implemented by Perl 5. <br/>
+　
+ HomBlocks is a pipeline that implemented by Perl 5. <br/>
 　　There is no need of external installation for HomBlocks.<br/>
 　　All the dependencies external executable files are placed under bin directory.<br/>
 　　git clone https://github.com/fenghen360/HomBlocks.git　<br/>
@@ -60,9 +60,12 @@ chmod 755 *
 
 ## Required software
 
-1. python 2
-1. [scikit-learn](https://github.com/scikit-learn/scikit-learn)
-    1. This currently requires the development branch (0.18.dev0) of scikit-learn for the neural network. You can install the developer branch by following the instructions [here](https://github.com/scikit-learn/scikit-learn).
+1. perl with version above 5
+2. java with version above 1.7
+3. python with version above 2.7
+4. circos (optimal)
+    1. circos is not easy to install on a linux server without root permissions. If you want install to vivualize the genes involved in the alignments. You can use perl scipts cpanm.pl (```http://xrl.us/cpanm```) to install perl modules. Otherwise, my advice is to 
+    This currently requires the development branch (0.18.dev0) of scikit-learn for the neural network. You can install the developer branch by following the instructions [here](https://github.com/scikit-learn/scikit-learn).
 1. [Aliscore](https://www.zfmk.de/en/research/research-centres-and-groups/aliscore)
    1. This program requires perl
 1. [pandas](http://pandas.pydata.org/)
