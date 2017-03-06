@@ -175,7 +175,7 @@ When the LCB detection process run is complete, HomBlocks will start triming LCB
 After trimming, all filtered module sequences of each species will be concatenated together.<br/>
 
 ```bash
-                                                       ********************                  
+                                                        ********************                  
                                                         **HomBlocks start!**               
                                                         ********************
 
@@ -227,6 +227,20 @@ The concatenated length is 15170 bp
 HomBlocks DATA PREPRATION COMPLETED! ENJOY IT!!
 
 ```
+### Output files
+
+This simple run was finished resulting with alignment file named **Xenarthrans.output.fasta**<br/>
+**Xenarthrans.output.fasta** was already aligned, you can check it by aligners like MEGA, clustalx or UGENE.
+
+
+
+
+
+#### Running with 36 Xenarthrans mitochondrial genomes as an example
+
+
+
+
 
 
 
