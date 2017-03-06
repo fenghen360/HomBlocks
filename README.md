@@ -203,12 +203,6 @@ You may save time doing some of the following.
                         required.
 ```
 
-## Citing this package
-
-Please use the following to cite us:
-
-[**The OGCleaner: filtering false-positive homology clusters**](http://bioinformatics.oxfordjournals.org/content/early/2016/09/07/bioinformatics.btw571.abstract)
-
 ## Acknowledgements
 
 The authors would like to thank:
