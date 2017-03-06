@@ -32,33 +32,31 @@ The co-exist LCBs among all organelle genomes will be extracted and trimmed to s
 　　HomBlocks is a pipeline that implemented by Perl 5. <br/>
 　　There is no need of external installation for HomBlocks.<br/>
 　　All the dependencies external executable files are placed under bin directory.<br/>
-　　git clone https://github.com/fenghen360/HomBlocks.git　or download the zip compressed files into your work directory<br/>
+　　git clone https://github.com/fenghen360/HomBlocks.git　<br/>
+　　Or download the zip compressed files into your work directory<br/>
   
 
 ```bash
-# Python dependenecies
-## With root permissions
-pip install -r requirements.txt
+# Decompressing files
+unzip HomBlocks-master.zip
 
-# Install Aliscore
-make aliscore
+# Check wether programs in bin directory are executable. if they are not, change their permission.
+cd HomBlocks-master
+cd bin
+chmod 755 *
 
-# Install MAFFT
-make mafft
+# make programes in PartitionFinderV1.1.1 executable
+cd ..
+cd PartitionFinderV1.1.1
+chmod 755 
+chmod 755 PartitionFinder*
+cd programs
+chmod 755 *
+cd ..
+cd partfinder
+chmod 755 *
 
-# Install PAML
-make paml
-
-# Install Seq-Gen
-make seq-gen
-
-# Install scikit-learn developer branch
-git clone https://github.com/scikit-learn/scikit-learn.git
-cd scikit-learn
-python setup.py install
 ```
-
-**If you don't have root permissions on your system**, you can run ```pip install --user -r requirements.txt``` to install python dependencies and ```python setup.py install --user``` in the scikit-learn directory.
 
 ## Required software
 
