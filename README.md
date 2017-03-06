@@ -247,10 +247,9 @@ Your can review the trimming results through web browser.<br/>
 ##### 3. A LCB detection result derived from progressiveMauve
 
 **Xenarthrans.mauve.out**<br/>
-Please keep this file!(Of course, the name of this file was defined by users)<br/>
-In other cases, running HomBlocks with a series of green plastid genomes which were complex in structure and gene content will result in a dozen of LCBs. Some of them would pass the trimming procedure, other would fail. <br/>
-And the number of LCBs can be adjusted by add the parameter ```-min=``` to filter by length.<br/>
-If you want to make adjustment of LCB number involved in final alingment, you can filter out them with shourt lenthg (for example, 200 bp). You don't need to rerun HomBlocks with progressiveMauve, if you keep **Xenarthrans.mauve.out** (in this case).<br/>
+　　Please keep this file!(Of course, the name of this file was defined by users)<br/>
+In other cases, running HomBlocks with a series of green plastid genomes which were complex in structure and gene content will result in a dozen of LCBs. Some of them would pass the trimming procedure, other would fail. And the number of LCBs can be adjusted by add the parameter ```-min=``` to filter by length.<br/>
+　　If you want to make adjustment of LCB number involved in final alingment, you can filter out them with shourt lenthg (for example, 200 bp). You don't need to rerun HomBlocks with progressiveMauve, if you keep **Xenarthrans.mauve.out** (in this case).<br/>
 
 The commond line should also be adjusted like this:<br/>
 
@@ -258,9 +257,14 @@ The commond line should also be adjusted like this:<br/>
 perl HomBlocks.pl -in=Xenarthrans.mauve.out -out_seq=Xenarthrans.output.fasta -number=36 -min=200 -method=Gblocks
 ```
 
-Note: ```-number=``` indicated the number of species used in this analysis.<br/>
-
-
+Note: 
+```
+-number=
+``` 
+indicated the number of species used in this analysis.　<br/>
+```
+-in=
+```
 
 ### Notes on running the program:
 
