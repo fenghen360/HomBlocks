@@ -64,8 +64,8 @@ chmod 755 *
 2. java with version above 1.7
 3. python with version above 2.7
 4. circos (optimal)
-    1. circos is not easy to install on a linux server without root permissions. If you want install to vivualize the genes involved in the alignments. You can use perl scipts cpanm.pl (```http://xrl.us/cpanm```) to install perl modules. Otherwise, my advice is to 
-    This currently requires the development branch (0.18.dev0) of scikit-learn for the neural network. You can install the developer branch by following the instructions [here](https://github.com/scikit-learn/scikit-learn).
+    1. circos is not easy to install on a linux server without root permissions. If you want install to visualize the genes involved in the alignments. You can use perl scipts cpanm.pl (```http://xrl.us/cpanm```) to install perl modules. Otherwise, my advice is to do this visualization on circoletto webserver http://tools.bat.infspire.org/circoletto/ by input of whole genome sequence and a set of every single gene sequence, respectively. 
+    
 1. [Aliscore](https://www.zfmk.de/en/research/research-centres-and-groups/aliscore)
    1. This program requires perl
 1. [pandas](http://pandas.pydata.org/)
