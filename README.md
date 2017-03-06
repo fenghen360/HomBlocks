@@ -18,11 +18,14 @@ convenient. <br/>
 　　Organelle genomes within intraspecies are usually conserved both in length and structure. So, in some cases, they can be aligned directly. But in nine cases of ten, researches of organelle genomes focus on interspecies level, which means the direct alignment is difficult to realize.<br/>
    
 ## Methodology
+The working flow diagram was shown below.<br/>
 
-![image](https://github.com/fenghen360/Tutorial/blob/master/pic/workflow.png)
-Our methodology is based outlined in [**Detecting false positive sequence homology: a machine learning approach**](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-0955-3) published in BMC Bioinformatics on 24 February 2016.
+![image](https://github.com/fenghen360/Tutorial/blob/master/pic/workflow.png)<br/>
 
-This application was published in [**The OGCleaner: filtering false-positive homology clusters**](http://bioinformatics.oxfordjournals.org/content/early/2016/09/07/bioinformatics.btw571.abstract) published in Bioinformatics on 10 September 2016.
+　　HomBlocks utilizes progressiveMauve (Darling et al., 2004), which applies anchored alignment algorithm, to identify locally collinear blocks (LCBs) shared by organelle genomes (chloroplast and mitochondrial genomes). <br/>
+The co-exist LCBs among all organelle genomes will be extracted and trimmed to screen out phylogeny informative regions.<br/> 　　HomBlocks offers four different methods for LCBs trimming: Gblocks, trimAl, noisy and BMGE. Without settings, the default trimming method is Gblocks. <br/>
+　　The final alignment that was composed of trimmed LCB could be used in downstream analysis. Additional parameters were provided for users to select the best fit DNA substitution model and optimal partition schemes and models of sequence evolution for RAxML with the final alignment by PartitionFinder (Lanfear et al., 2012). At the same time, circos configure files will be generated via circoletto (Darzentas, 2010) for visualization to explore which gene was involved in the final alignment.<br/>
+
 
 ## Installation
 　　
