@@ -227,14 +227,18 @@ The concatenated length is 15170 bp
 HomBlocks DATA PREPRATION COMPLETED! ENJOY IT!!
 
 ```
-### Output files
+#### Output files
 
 This simple run was finished resulting with alignment file named **Xenarthrans.output.fasta**<br/>
-**Xenarthrans.output.fasta** was already aligned, you can check it by aligners like MEGA, clustalx or UGENE.
+Sequences in **Xenarthrans.output.fasta** were already aligned, you can check it by aligners like MEGA, clustalx or UGENE.
 
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/ugene.png)<br/>
 
 
+And the LCB trimming results (module_1.fasta-gb.htm in this case，only one detectable LCB among these 36 mt genomes).<br/>
+Your can review the trimming results through web browser.<br/>
+
+![image](https://github.com/fenghen360/Tutorial/blob/master/pic/Gblock.png)<br/>
 
 #### Running with 36 Xenarthrans mitochondrial genomes as an example
 
