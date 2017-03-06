@@ -10,7 +10,7 @@
 convenient. 
 
 ## Reasons why alignment cannot be established using whole organelle genomes
-
+　　The evolution of organelle genomes is dynamic and diverse in gene content, structure and sequnce divergence. Thus, basically basically speaking, they cannot be aligned directly using the whole genome sequences as shown by picture below.
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/alignment2.png)
 
 
