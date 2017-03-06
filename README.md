@@ -117,9 +117,57 @@ perl HomBlocks.pl --align --path=/public/home/mgb217/HomBlocks/Xenarthrans/fasta
 <br/>
 
 The meanings of these parameters could be found in the usage of HomBlocks. It should be noted that ```--align``` and ```--path``` must be set at same time.<br/>
-Because ```--align``` means that you have no mauve alignments result file for the first time, so set this parameter to run progressiveMauve for LCB detection. Meanwhile,  ```--path``` parameter will define the absolute path of directory where you put your sequences in.<br/>
+Because ```--align``` means that you have no mauve alignments result file for the first time, so set this parameter to run progressiveMauve for LCB detection. Meanwhile,  ```--path``` parameter will define the absolute path of directory in where you put your sequences.<br/>
+<br/>
+<br/>
+Next, HomBlocks will detect the sequences in the directory you defined.<br/>
+The printscreen should be like this:<br/>
 
+```bash
+Totla 36 files detected!
+The list of sequences will be aligned:
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Bradypus_pygmaeus.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Bradypus_torquatus.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Bradypus_tridactylus.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Bradypus_variegatus.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Bradypus_variegatus_old.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Cabassous_centralis.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Cabassous_chacoensis.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Cabassous_tatouay.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Cabassous_unicinctus_ISEM_T-2291.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Cabassous_unicinctus_MNHN_1999-1068.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Calyptophractus_retusus.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Chaetophractus_vellerosus.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Chaetophractus_villosus.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Chlamyphorus_truncatus.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Choloepus_didactylus.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Choloepus_didactylus_old.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Choloepus_hoffmanni.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Cyclopes_didactylus.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Dasypus_hybridus.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Dasypus_kappleri.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Dasypus_novemcinctus.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Dasypus_novemcinctus_old.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Dasypus_pilosus_LSUMZ_21888.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Dasypus_pilosus_MSB_49990.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Dasypus_sabanicola.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Dasypus_septemcinctus.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Dasypus_yepesi.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Euphractus_sexcinctus.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Myrmecophaga_tridactyla.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Priodontes_maximus.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Tamandua_mexicana.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Tamandua_tetradactyla.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Tamandua_tetradactyla_old.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Tolypeutes_matacus.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Tolypeutes_tricinctus.fasta
+/public/home/mgb217/HomBlocks/Xenarthrans/fasta/Zaedyus_pichiy.fasta
+<===========Please re-check.============>
 
+Keep going?
+[Press Enter/Ctrl+C]
+
+```
 
 
 
