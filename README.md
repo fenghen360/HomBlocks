@@ -6,11 +6,11 @@
 
 ## Traditional way for construction of multi-gene alignment from organelle genomes
 
-　　Almost all studies regarding with organelle genomics were accustomed to making phylogeny analyses by taking advantage of multiple genes in improvements of phylogentic resolution. But, usually, every single set of orthology genes was need to be pre-aligned, then concatenation was performed among these common aligned genes. Though some software like SequenceMatrix and 
-
+　　Almost all studies regarding with organelle genomics were accustomed to making phylogeny analyses by taking advantage of multiple genes in improvements of phylogentic resolution. But, usually, every single set of orthology genes was need to be pre-aligned, then concatenation was performed among these common aligned genes. Though some softwares, like SequenceMatrix, can facilitate the procedure of sequence extraction or concatenation, to constrcut multi-gene alignments derived from organelle genomes is a complex process and prone to induce artificial errors. Despite that, the most concerning point for researches is how long this alignment procedure took. In general, with the help of some bioinformatics tools, it will take at least two weeks to make genome-wide alignments using common genes among 30 higher plant chloroplast genomes (about 150kb long with at least 100 common genes). Thus, the common phenomenon exists in papers of plant chloroplast genomes that the number of genes used in phylogeny were decreased to below 70. And reseachers have to be patient and cautious, because single gene alignment with artificial errors can lead to undetectable misplacement in the final alignments. Generally speaking, organelle phylogenomic analysis provides exact tools to detect genetic relationships, but the construction of multi-gene alignments does not sound 
+convenient. 
 
 ## Reasons why alignment cannot be established using whole organelle genomes
--------
+
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/alignment2.png)
 
 
@@ -23,7 +23,7 @@ This application was published in [**The OGCleaner: filtering false-positive hom
 
 ## Installation
 　　
-  　HomBlocks is a pipeline that implemented by Perl 5. <br/>
+　　HomBlocks is a pipeline that implemented by Perl 5. <br/>
 　　There is no need of external installation for HomBlocks.<br/>
 　　All the dependencies external executable files are placed under bin directory.<br/>
 　　git clone https://github.com/fenghen360/HomBlocks.git　or download the zip compressed files into your work directory<br/>
