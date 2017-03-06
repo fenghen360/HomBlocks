@@ -267,8 +267,11 @@ indicated the number of species used in this analysis.　<br/><br/>
 HomBlocks will reuse Xenarthrans.mauve.out as input to do co-exist LCB detection with length filter criteria (-min=200). <br/>
 
 ##### 4. Results with setting --PartitionFinder parameter
+To run HomBlocks with parameter ```--PartitionFinder``` will take sequence partition strategy and best-fit DNA substitution models of modules (LCB) using PartitionFinder. HomBlocks will build a directory named partitionfinder_dir. The text result was placed under directory named analysis.
 
-![image](https://github.com/fenghen360/Tutorial/blob/master/pic/best.png)<br/>
+![image](https://github.com/fenghen360/Tutorial/blob/master/pic/best.png)<br/><br/>
+
+Here an example of the content of best_scheme.txt<br/>
 
 ```bash
 Settings used
