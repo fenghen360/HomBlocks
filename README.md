@@ -235,7 +235,7 @@ Sequences in **Xenarthrans.output.fasta** were already aligned, you can check it
 
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/ugene.png)<br/>
 
-##### 2. The LCB timming result named module_X.fasta-gb.html and module_X.fasta
+##### 2. The LCB trimming result named module_X.fasta-gb.html and module_X.fasta
 And the LCB trimming results: <br/>
 　　　　　　　**module_1.fasta** (timmed LCB sequnce) <br/>
 　　　　　　　**module_1.fasta-gb.htm** (trimming results from Glbocks. In this case，only one LCB was detectable) <br/>
