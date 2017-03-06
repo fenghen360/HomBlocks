@@ -72,7 +72,7 @@ chmod 755 *
 
 ## Tutorial
 
-　　HomBlocks is not complex to use. What it needs are fasta or gebank files (fasta, fas, fa or gb suffix). You must put all these sequences **in a directory**. Like these test sequnces which were put in **Xenarthrans/fasta**.<br/>
+　　HomBlocks is not complex to use. What it needs are fasta or gebank files (fasta, fas, fa or gb suffix). You must put all these sequences **in a directory**. Like these test sequnces that were put in **Xenarthrans/fasta**.<br/>
 
 To begin with, you can check the usage of HomBlocks without any parameters.<br/>
 
