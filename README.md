@@ -232,7 +232,7 @@ HomBlocks DATA PREPRATION COMPLETED! ENJOY IT!!
 This simple run was finished resulting with alignment file named **Xenarthrans.output.fasta**<br/>
 **Xenarthrans.output.fasta** was already aligned, you can check it by aligners like MEGA, clustalx or UGENE.
 
-
+![image](https://github.com/fenghen360/Tutorial/blob/master/pic/ugene.png)<br/>
 
 
 
