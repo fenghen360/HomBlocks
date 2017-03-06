@@ -40,6 +40,9 @@ The co-exist LCBs among all organelle genomes will be extracted and trimmed to s
 # Decompressing files
 unzip HomBlocks-master.zip
 
+# Note that Homblocks.pl is the main program, you can check it's usage by
+perl Homblocks.pl
+
 # Check wether programs in bin directory are executable. if they are not, change their permission.
 cd HomBlocks-master
 cd bin
@@ -58,7 +61,7 @@ chmod 755 *
 
 ```
 
-## Required software
+### Required software
 
 1. perl with version above 5
 2. java with version above 1.7
@@ -66,35 +69,6 @@ chmod 755 *
 4. circos (optimal)
     1. circos is not easy to install on a linux server without root permissions. If you want install to visualize the genes involved in the alignments. You can use perl scipts cpanm.pl (```http://xrl.us/cpanm```) to install perl modules. Otherwise, my advice is to do this visualization on circoletto webserver http://tools.bat.infspire.org/circoletto/ by input of whole genome sequence and a set of every single gene sequence, respectively. 
     
-1. [Aliscore](https://www.zfmk.de/en/research/research-centres-and-groups/aliscore)
-   1. This program requires perl
-1. [pandas](http://pandas.pydata.org/)
-1. [matplotlib](http://matplotlib.org/)
-1. [MAFFT](http://mafft.cbrc.jp/alignment/software/)
-1. [PAML](http://abacus.gene.ucl.ac.uk/software/paml.html)
-1. [Seq-Gen](http://tree.bio.ed.ac.uk/software/seqgen/)
-
-Note: all necessary software packages are included except:
-
-1. python packages
-1. scikit-learn dev branch
-
-The python modules can be installed via pip and the included requirements.txt and from [here](https://github.com/scikit-learn/scikit-learn) for scikit-learn.
-We strongly suggest using a [virtualenv](https://virtualenv.pypa.io/en/stable/) as a way to set up an isolated python module environment.
-Follow these steps to install all other software.
-
-### Compiling MAFFT
-We include a modified version of MAFFT that is altered for installation without root permissions.
-No other modifications were made to it, feel free to use your own MAFFT installation if you already have it by using the ```--aligner_path``` option.
-We suggest using the included MAFFT package.
-
-### Compiling PAML
-For this application, we require the PAML evolverRandomTree package.
-This is not built in the default PAML software package.
-The version of PAML that is included in this software package contains the modifications as outlined in the [PAML documentation](http://www.molecularevolution.org/molevolfiles/paml/pamlDOC.pdf) necessary to compile the evolverRandomTree binary.
-It also contains modifications that allow the evolverRandomTree program to save output to a user-specified destination.
-It is suggested that you use the included PAML distribution in this package unless you are able to make the necessary modifications to your PAML installation.
-
 
 ## Tutorial
 
