@@ -264,7 +264,7 @@ indicated the number of species used in this analysis.　<br/><br/>
 ```
 -in=Xenarthrans.mauve.out
 ```
-HomBlocks will reuse Xenarthrans.mauve.out as input to do co-exist LCB detection with length filter criteria. <br/>
+HomBlocks will reuse Xenarthrans.mauve.out as input to do co-exist LCB detection with length filter criteria (-min=200). <br/>
 
 ##### 4. Results with setting ##----PartitionFinder## parameter
 
