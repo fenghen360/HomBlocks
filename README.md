@@ -256,20 +256,28 @@ The commond line should also be adjusted like this:<br/>
 ```
 perl HomBlocks.pl -in=Xenarthrans.mauve.out -out_seq=Xenarthrans.output.fasta -number=36 -min=200 -method=Gblocks
 ```
-
+<br/>
 Note: 
 ```
--number=
+-number=36
 ``` 
-indicated the number of species used in this analysis.　<br/>
+indicated the number of species used in this analysis.　<br/><br/>
 ```
--in=
+-in=Xenarthrans.mauve.out
 ```
+HomBlocks will reuse Xenarthrans.mauve.out as input to do co-exist LCB detection with length filter criteria. <br/>
+
+##### 4. Results with setting ##----PartitionFinder## parameter
 
 ### Notes on running the program:
 
 The ogcleaner.py script is all-inclusive and will do everything for you.
 You may save time doing some of the following.
+
+
+
+
+
 
 
 ## Acknowledgements
