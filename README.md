@@ -28,9 +28,8 @@ The co-exist LCBs among all organelle genomes will be extracted and trimmed to s
 
 
 ## Installation
-　
- HomBlocks is a pipeline that implemented by Perl 5. <br/>
-　　There is no need of external installation for HomBlocks.<br/>
+　　HomBlocks is a pipeline that implemented by Perl 5. <br/>
+　　No external installation is needed for HomBlocks.<br/>
 　　All the dependencies external executable files are placed under bin directory.<br/>
 　　git clone https://github.com/fenghen360/HomBlocks.git　<br/>
 　　Or download the zip compressed files into your work directory<br/>
