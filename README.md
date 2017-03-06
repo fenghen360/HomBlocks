@@ -14,7 +14,7 @@ convenient. <br/>
 　　The evolution of organelle genomes is dynamic and diverse in gene content, structure and sequnce divergence. Thus, basically speaking, they cannot be aligned directly using the whole genome sequences as shown by picture below.<br/>
 
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/alignment2.png)<br/>
-　　This is the result picture from Mauve by comparison of three plastid genomes of three green algae. As we can see, there was a large invert frament in Ulva sp. when comparing with other sequences (arrow B), and gene content, intergenic region length were also different (arrorw C). Similarly，number of gene introns among the genomes were different (arrow A).  The most direct consequence is that they exhibited in different length (arrow D). For aligners, these characteristics can lead to fatal error or being corrupted. <br/>
+　　This is the result picture from Mauve by comparison of plastid genomes of three green algae. As we can see, there was a large invert frament in Ulva sp. when comparing with other sequences (arrow B), and gene content, intergenic region length were also different (arrorw C). Similarly，number of gene introns among the genomes were different (arrow A).  The most direct consequence is that they exhibited in different length (arrow D). For aligners, these characteristics can lead to fatal error or being corrupted. <br/>
 　　Organelle genomes within intraspecies are usually conserved both in length and structure. So, in some cases, they can be aligned directly. But in nine cases of ten, researches of organelle genomes focus on interspecies level, which means the direct alignment is difficult to realize.<br/>
    
 ## Methodology
