@@ -72,6 +72,38 @@ chmod 755 *
 
 ## Tutorial
 
+　　HomBlocks is not complex to use. What it needs are fasta or gebank files (fasta, fas, fa or gb suffix). You must put all these sequences **in a directory**. Like these test sequnces which were put in **Xenarthrans/fasta**.
+
+To begin with, you can check the usage of HomBlocks without any parameters.
+
+```bash
+# check usage
+perl HomBlocks.pl
+
+# The print of screen should be like this
+usage: ./HomBlocks.pl <parameters>
+         
+parameters:
+                -in=<file>                            Genome alignment outputfile derived from Muave. If you set --align, ignore this input parameter.
+                -out_seq=<file>                       Output file of trimmed and concatenated sequences.
+                -number=<int>                         Number of taxa used in aliggment (should be precious). If you set --align, ignore this input parameter.
+                -min=<int>                            Minimum alignment length of a extracted module. (Default: unset)
+                -method=[Gblocks|trimAl|BMGE|noisy]   To choose which program to be used in alignment trimming. (Default: Gblocks).
+                --PartitionFinder                     To calculate the best subsitition model for each extracted colinear block and set best partition scheme by PartitionFinder.
+
+                --align                               If you want to align sequences by mauve, add this parameter (Default: progressiveMauve).
+                                                      Then you should split every sequence into a single file. File suffix with fasta,gb,fas,fa is acceptable.
+                --path=                               Absolute path to directory where you put in fasta sequences (Under --align parameter).
+
+                --mauve-out=                          The output file produced by mauve (Absolute path). If you set --align parameter.
+                -gb=                                  genbank file provided to detect how many genes were used to construct finaly alignment.
+
+                -help/h                               Print the usage.
+
+
+```
+
+
 If you don't want to train your own models and want to skip to filtering an existing set of clusters using a pre-trained model **Using your own data** section.
 
 This program has two modes that are specified as positional arguments when running.
