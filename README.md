@@ -338,13 +338,13 @@ This is the visualization results of 52 higher plant chloroplast genomes (anothe
 It is clear to have a glance at the view of  genes that integrated into final alignments and their corresponding regions.
 ### The efficacy of HomBlocks compared with traditional method
 
-The phylogeny analyses results using HomBlocks matrices of 36 Xenarthrans mitochondrial genomes were shown below, compared with the raw tree excerpted from orginal papaer.
+The phylogeny analyses results using HomBlocks matrices of 36 Xenarthrans mitochondrial genomes were shown below, compared with the raw tree excerpted from orginal papaer. The left one is the tree I built with RAxML and MrBayes.
 
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/tree-com.png)<br/><br/>
 <br/>
 <br/>
 This dataset of 52 higher plant chloroplast genomes was referred to this paper:<br/>
-**Zhang, D. et al. (2016). The complete plastid genome sequence of the wild rice Zizania latifolia and comparative chloroplast genomics of the rice Tribe Oryzeae, Poaceae. Frontiers in Ecology and Evolution, 4, 88.**
+**Zhang, D. et al. (2016). The complete plastid genome sequence of the wild rice Zizania latifolia and comparative chloroplast genomics of the rice Tribe Oryzeae, Poaceae. Frontiers in Ecology and Evolution, 4, 88.** The left one is the tree I built with RAxML and MrBayes.
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/tree-com2.png)<br/><br/>
 <br/>
 <br/>
