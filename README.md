@@ -332,6 +332,7 @@ This is the visualization results of 36 Xenarthrans mitochondrial genomes.
 ### The efficacy of HomBlocks compared with traditional method
 
 The phylogeny analyses results using HomBlocks matrices of 36 Xenarthrans mitochondrial genomes were shown below, compared with the raw tree excerpted from orginal papaer.
+
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/tree-com.png)<br/><br/>
 <br/>
 <br/>
