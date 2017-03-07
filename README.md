@@ -20,7 +20,7 @@ convenient. <br/>
 ## Methodology
 The working flow diagram was shown below.<br/>
 
-![image](https://github.com/fenghen360/Tutorial/blob/master/pic/workflow.png)<br/>
+![image](https://github.com/fenghen360/Tutorial/blob/master/pic/workflow2.png)<br/>
 
 　　HomBlocks utilizes progressiveMauve, which applies anchored alignment algorithm, to identify locally collinear blocks (LCBs) shared by organelle genomes (chloroplast and mitochondrial genomes). <br/>
 The co-exist LCBs among all organelle genomes will be extracted and trimmed to screen out phylogeny informative regions.<br/> 　　HomBlocks offers four different methods for LCBs trimming: Gblocks, trimAl, noisy and BMGE. Without settings, the default trimming method is Gblocks. <br/>
