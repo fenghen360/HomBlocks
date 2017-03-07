@@ -514,7 +514,7 @@ close(PIN);
 close(POUT);
 system("./bin/readal -in partitionfinder_dir/seq.fasta -out partitionfinder_dir/seq.phy -phylip");
 &PartitionFinder_cfg();
-system("python PartitionFinderV1.1.1/PartitionFinder.py partitionfinder_dir --raxml");
+system("python PartitionFinderV1.1.1/PartitionFinder.py partitionfinder_dir");
 }
 
 
