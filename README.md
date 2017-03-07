@@ -351,8 +351,8 @@ This dataset of 52 higher plant chloroplast genomes was referred to this paper:<
 ## Notes
 **1. Please delete all fasta and html files under HomBlocks main directory, if you rerun with result file of progressiveMauve.**<br/>
 **2. PartitionFinder only works with the existence of more than 2 LCBs.**<br/>
-**3. Oarameters of the four trimmers and progressiveMauve can be modified directly in HomBlocks.pl, if you were familiar with them and want to make adjustment for your own data. **<br/>
-**4. The runtimes and memory requirements of HomBlocks are highly dependent on the use cases. More genomes, especially chloroplast genomes will take longer time. But several hours are still faster than several days or weeks.** ^_^<br/><br/>
+**3. Oarameters of the four trimmers and progressiveMauve can be modified directly in HomBlocks.pl, if you were familiar with them and want to make adjustment for your own data.** <br/>
+**4. The runtimes and memory requirements of HomBlocks are highly dependent on the use cases. More genomes, especially chloroplast genomes will take longer time. But several hours are still faster than several days or weeks.** ^_^<br/>
 
 Enjoy it! Please contact with me (fenghen360@126.com) if you have any problems.<br/><br/>
 ## Acknowledgements
