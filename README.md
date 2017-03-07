@@ -240,14 +240,14 @@ And the LCB trimming results: <br/>
 　　　　　　　**module_1.fasta** (timmed LCB sequnce) <br/>
 　　　　　　　**module_1.fasta-gb.htm** (trimming results from Glbocks. In this case，only one LCB was detectable) <br/>
 Your can review the trimming results through web browser.<br/>
-The results of trimmer Gblocks (default).
+The results of trimmer Gblocks (default).<br/>
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/Gblock.png)<br/>
-<br/>
+<br/><br/>
 The results of trimmer trimAl.
 <br/>
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/trimAl.png)<br/>
-<br/>
-The results of trimmer BMGE.
+<br/><br/>
+The results of trimmer BMGE.<br/>
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/BMGE.png)<br/>
 
 Note that trimmer noisy produces no visualization result.
