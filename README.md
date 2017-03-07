@@ -243,6 +243,11 @@ And the LCB trimming results: <br/>
 Your can review the trimming results through web browser.<br/>
 
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/Gblock.png)<br/>
+<br/>
+
+<br/>
+![image](https://github.com/fenghen360/Tutorial/blob/master/pic/trimAl.png)<br/>
+<br/>
 
 ##### 3. A LCB detection result derived from progressiveMauve
 
