@@ -248,6 +248,7 @@ Your can review the trimming results through web browser.<br/>
 <br/>
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/trimAl.png)<br/>
 <br/>
+![image](https://github.com/fenghen360/Tutorial/blob/master/pic/BMGE.png)<br/>
 
 ##### 3. A LCB detection result derived from progressiveMauve
 
