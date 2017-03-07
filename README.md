@@ -350,7 +350,7 @@ This dataset of 52 higher plant chloroplast genomes was referred to this paper:<
 <br/>
 ## Notes
 **1. Please delete all fasta and html files under HomBlocks main directory, if you rerun with result file of progressiveMauve.**<br/>
-**2. It's better to use the species names as the names of fasta files. Because the headers in the final alignments will be the names of files rather than the header in every raw fasta sequence. And more important, no blank is allowed in names of these fasta sequences, becasue progressive will recognize one blank as a parameter. Please use underscore character instead.** <br/>
+**2. It's better to use the species names as the names of fasta files. Because the headers in the final alignments will be the names of files rather than the header in every raw fasta sequence. And more important, no blank is allowed in names of these fasta sequences, becasue progressiveMauve will recognize one blank as a parameter. Please use underscore character instead.** <br/>
 **3. PartitionFinder only works with the existence of more than 2 LCBs.**<br/>
 **4. Oarameters of the four trimmers and progressiveMauve can be modified directly in HomBlocks.pl, if you were familiar with them and want to make adjustment for your own data.** <br/>
 **5. The runtimes and memory requirements of HomBlocks are highly dependent on the use cases. More genomes, especially chloroplast genomes will take longer time. But several hours are still faster than several days or weeks.** ^_^<br/>
