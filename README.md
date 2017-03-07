@@ -95,6 +95,7 @@ parameters:
                 --path=                               Absolute path to directory where you put in fasta sequences (Under --align parameter).
 
                 --mauve-out=                          The output file produced by mauve (Absolute path). If you set --align parameter.
+                -gb=                                  genbank file provided to detect how many genes were used to construct finaly alignment.
            
 
                 -help/h                               Print the usage.
