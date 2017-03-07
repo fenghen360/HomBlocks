@@ -95,7 +95,7 @@ parameters:
                 --path=                               Absolute path to directory where you put in fasta sequences (Under --align parameter).
 
                 --mauve-out=                          The output file produced by mauve (Absolute path). If you set --align parameter.
-                -gb=                                  genbank file provided to detect how many genes were used to construct finaly alignment.
+               
            
 
                 -help/h                               Print the usage.
@@ -249,7 +249,7 @@ Your can review the trimming results through web browser.<br/>
 **Xenarthrans.mauve.out**<br/>
 　　Please keep this file!(Of course, the name of this file was defined by users)<br/>
 　　In other cases, running HomBlocks with a series of green plastid genomes which were complex in structure and gene content will result in a dozen of LCBs. Some of them would pass the trimming procedure, other would fail. And the number of LCBs can be adjusted by add the parameter ```-min=``` to filter by length.<br/>
-　　If you want to make adjustment of LCB number involved in final alingment, you can filter out them with shourt lenthg (for example, 200 bp). You don't need to rerun HomBlocks with progressiveMauve, if you keep **Xenarthrans.mauve.out** (in this case).<br/>
+　　If you want to make adjustment of LCB number involved in final alingment, you can filter out them with shourt length (for example, 200 bp). You don't need to rerun HomBlocks with progressiveMauve, if you keep **Xenarthrans.mauve.out** (in this case).<br/>
 
 The commond line should also be adjusted like this:<br/>
 
