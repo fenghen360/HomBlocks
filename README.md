@@ -330,6 +330,8 @@ The phylogeny analyses results using HomBlocks matrices of 36 Xenarthrans mitoch
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/tree-com.png)<br/><br/>
 <br/>
 <br/>
+This dataset of 52 higher plant chloroplast genomes was referred to this paper:<br/>
+**Zhang, D. et al. (2016). The complete plastid genome sequence of the wild rice Zizania latifolia and comparative chloroplast genomics of the rice Tribe Oryzeae, Poaceae. Frontiers in Ecology and Evolution, 4, 88.**
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/tree-com2.png)<br/><br/>
 <br/>
 <br/>
