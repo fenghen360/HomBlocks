@@ -63,8 +63,8 @@ chmod 755 *
 ### Required software
 
 1. perl with version above 5
-2. java with version above 1.7
-3. python with version above 2.7
+2. java with version above 1.7 (required by BMGE.jar)
+3. python with version above 2.7 (required by PartitionFinder)
 4. circos (optimal)
   1. circos is not easy to install on a linux server without root permissions. If you want install to visualize the genes involved in the alignments. You can use perl scipts cpanm.pl (```http://xrl.us/cpanm```) to install perl modules. Otherwise, my advice is to do this visualization on circoletto webserver http://tools.bat.infspire.org/circoletto/ by input of whole genome sequence and a set of every single gene sequence, respectively. <br/>
     
