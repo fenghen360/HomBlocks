@@ -330,6 +330,8 @@ The phylogeny analyses results using HomBlocks matrices of 36 Xenarthrans mitoch
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/tree-com.png)<br/><br/>
 <br/>
 <br/>
+![image](https://github.com/fenghen360/Tutorial/blob/master/pic/tree-com2.png)<br/><br/>
+<br/>
 <br/>
 ## Notes
 **Please delete all fasta and htm files under HomBlocks main directory, if you rerun with result file of progressiveMauve.**<br/>
