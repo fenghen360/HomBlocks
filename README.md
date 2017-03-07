@@ -335,7 +335,7 @@ This is the visualization results of 36 Xenarthrans mitochondrial genomes.
 
 This is the visualization results of 52 higher plant chloroplast genomes (another test dataset in HomBlocks).
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/chl52.png)<br/><br/>
-
+It is clear to have a glance at the view of  genes that integrated into final alignments and their corresponding regions.
 ### The efficacy of HomBlocks compared with traditional method
 
 The phylogeny analyses results using HomBlocks matrices of 36 Xenarthrans mitochondrial genomes were shown below, compared with the raw tree excerpted from orginal papaer.
