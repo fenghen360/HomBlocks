@@ -292,13 +292,13 @@ close(TMP2OU);
 
 #-------------------------------------------------------------------------------------------
 
-print "Now work with Gblocks!\n\n\n";
+print "Now, trimming!\n\n\n";
 
 my @trimed=glob("*.fasta");
 foreach my $trimed(@trimed){
          if("$method" eq "Gblocks"){system("./bin/Gblocks $trimed out");}
 		 if("$method" eq "trimAl"){system("./bin/trimal -in $trimed -out ${trimed}-gb -fasta -htmlout $trimed.html -automated1");}
-		 if("$method" eq "BMGE"){system("java -jar /bin/BMGE.jar -i $trimed -t DNA -s YES -of ${trimed}-gb -oh $trimed.html");}
+		 if("$method" eq "BMGE"){system("java -jar ./bin/BMGE.jar -i $trimed -t DNA -s YES -of ${trimed}-gb -oh $trimed.html");}
 		 if("$method" eq "noisy"){system("./bin/noisy $trimed");}
 		 unlink ("$trimed");
 }
