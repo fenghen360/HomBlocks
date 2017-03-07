@@ -23,7 +23,7 @@ The working flow diagram was shown below.<br/>
 
 　　HomBlocks utilizes progressiveMauve, which applies anchored alignment algorithm, to identify locally collinear blocks (LCBs) shared by organelle genomes (chloroplast and mitochondrial genomes). The co-exist LCBs among all organelle genomes will be extracted and trimmed to screen the phylogeny informative regions out.<br/>
 　　HomBlocks offers four different methods for LCBs trimming: Gblocks, trimAl, noisy and BMGE. Without settings, the default trimming method is Gblocks. <br/>
-　　The final alignment that was composed of trimmed LCB could be used in downstream analysis. Additional parameters were provided for users to select the best fit DNA substitution model and optimal partition schemes and models of sequence evolution for RAxML with the final alignment by PartitionFinder. At the same time, circos configure files will be generated via circoletto (Darzentas, 2010) for visualization to explore which gene was involved in the final alignment.<br/>
+　　The final alignment that was composed of trimmed LCB could be used in downstream analysis. Additional parameters were provided for users to select the best fit DNA substitution model and optimal partition schemes and models of sequence evolution for RAxML with the final alignment by PartitionFinder.<br/>
 
 
 ## Installation
