@@ -319,11 +319,6 @@ DNA, p2 = 12795-13385, 28709-32188, 39337-62101
 DNA, p3 = 13386-28648
 DNA, p4 = 28649-28708, 32189-39283
 
-
-### Notes on running the program:
-
-The ogcleaner.py script is all-inclusive and will do everything for you.
-You may save time doing some of the following.
 ```
 
 
