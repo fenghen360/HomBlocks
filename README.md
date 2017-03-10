@@ -325,7 +325,7 @@ DNA, p4 = 28649-28708, 32189-39283
 ### A better way for visualization of genes involved in final alignments.
 
 To have a overview of which gene was involved in fianl alignments, circoletto webserver (http://tools.bat.infspire.org/circoletto/) is a good choice for this visualization by input of whole genome sequence and a set of every single gene sequence, respectively.<br/><br/>
-This is the visualization results of 36 Xenarthrans mitochondrial genomes.
+This is the visualization result of 36 Xenarthrans mitochondrial genomes.
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/circos.png)<br/><br/>
 
 This is the visualization results of 52 higher plant chloroplast genomes (another test dataset in HomBlocks).
