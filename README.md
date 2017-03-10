@@ -328,7 +328,7 @@ To have a overview of which gene was involved in fianl alignments, circoletto we
 This is the visualization result of 36 Xenarthrans mitochondrial genomes.
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/circos.png)<br/><br/>
 
-This is the visualization results of 52 higher plant chloroplast genomes (another test dataset in HomBlocks).
+This is the visualization result of 52 higher plant chloroplast genomes (another test dataset in HomBlocks).
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/chl52.png)<br/><br/>
 It is clear to have a glance at the view of  genes that integrated into final alignments and their corresponding regions.
 ### The efficacy of HomBlocks compared with traditional method
