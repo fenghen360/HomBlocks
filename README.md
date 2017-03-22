@@ -49,7 +49,7 @@ chmod 755 *
 # make programes in PartitionFinderV1.1.1 executable
 cd ..
 cd PartitionFinderV1.1.1
-chmod 755 
+chmod 755 *
 chmod 755 PartitionFinder*
 cd programs
 chmod 755 *
