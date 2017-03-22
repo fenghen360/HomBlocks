@@ -10,7 +10,7 @@
 
 
 ## Reasons why alignment cannot be established using whole organelle genomes
-　　The evolution of organelle genomes is dynamic and diverse in gene content, structure and sequnce divergence. Thus, basically speaking, they cannot be aligned directly using the whole genome sequences as shown by picture below.<br/>
+　　The evolution of organelle genomes is dynamic and diverse in gene content, structure and sequnce divergence. Thus, basically speaking, these genomes cannot be aligned directly using the whole genome sequences as shown by picture below.<br/>
 
 ![image](https://github.com/fenghen360/Tutorial/blob/master/pic/alignment2.png)<br/>
 　　This is the result picture of Mauve which shows the comparison of plastid genomes of three green algae. As we can see, there is a large invert frament in Ulva sp. when comparing with other sequences (arrow B). The gene content and intergenic region length are also different (arrorw C). Similarly, number of gene introns among the genomes were different (arrow A). The most direct consequence is that they exhibited in different length (arrow D). For aligners, these characteristics can lead to fatal error or being corrupted.  <br/>
