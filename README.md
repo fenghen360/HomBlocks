@@ -1,3 +1,7 @@
+##If you find this useful, please cite:
+Guiqi Bi, Yunxiang Mao, Qikun Xing, Min Cao , HomBlocks: A multiple-alignment construction pipeline for organelle phylogenomics based on locally collinear block searching, Genomics (2017), doi: 10.1016/j.ygeno.2017.08.001
+
+
 # What is HomBlocks?
 
 　　HomBlocks is a new and highly efficient pipeline that used homologous blocks searching method to construct multi-gene alignment. It can automatically recognize locally collinear blocks (LCB) among organelle genomes and excavate phylogeny informative regions to construct multi-gene involved alignment in few hours.<br/>
