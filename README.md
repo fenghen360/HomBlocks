@@ -1,4 +1,4 @@
-##If you find this useful, please cite:
+## If you find this useful, please cite:
 Guiqi Bi, Yunxiang Mao, Qikun Xing, Min Cao , HomBlocks: A multiple-alignment construction pipeline for organelle phylogenomics based on locally collinear block searching, Genomics (2017), doi: 10.1016/j.ygeno.2017.08.001
 
 
